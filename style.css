@@ -1,0 +1,52 @@
+* {
+  background: #777;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 104.7vh;
+  background-color: #f1f1f1;
+  display: flex;
+  border: 2px solid red;
+  position: sticky;
+}
+
+li a {
+  display: flex;
+  color: #000;
+  padding: 8px 16px;
+  position: sticky;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  position: sticky;
+  color: white;
+}
+
+#relax {
+  position: static;
+}
+
+button {
+  border: none;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#sus {
+  background: dodgerblue;
+}
